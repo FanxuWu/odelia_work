@@ -1,0 +1,5 @@
+"odelia_data/" 
+"__pycache__/" 
+"*.nii.gz" 
+"*.pt" 
+"*.zip" 
