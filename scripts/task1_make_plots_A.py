@@ -1,132 +1,135 @@
-# F:\odelia_work\scripts\task1_make_plots_A.py
 import argparse
 from pathlib import Path
+from typing import Dict, List
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
-# 不使用 seaborn；单图单轴；不指定颜色（符合你的绘图规范）
+_LABEL_MAP_INT = {0: "malignant", 1: "benign", 2: "no lesion"}
 
-def load_hf_labels():
-    from datasets import load_dataset
-    ds = load_dataset("ODELIA-AI/ODELIA-Challenge-2025", name="unilateral", split="val")
-    # 尝试找标签列名
-    candidates = ["Lesion","lesion","Class","class","Label","label","Diagnosis","diagnosis"]
-    ds_cols = ds.features.keys()
-    label_col = None
-    for c in candidates:
-        if c in ds_cols:
-            label_col = c
-            break
-    if label_col is None:
-        # 兜底：把所有列名打出来，方便你排查
-        raise RuntimeError(f"Cannot find label column in HF dataset. Columns: {list(ds_cols)}")
-
-    # 只取 UID 和 标签列
-    # 有些字段可能是 Arrow 类型，转成 pandas 更稳妥
-    df = ds.to_pandas()
-    labels = df[["UID", label_col]].copy()
-    labels.rename(columns={label_col: "Lesion"}, inplace=True)
-    return labels
-
-def normalize_label(x: str) -> str:
+def normalize_label(x):
+    try:
+        i = int(float(str(x).strip()))
+        if i in _LABEL_MAP_INT:
+            return _LABEL_MAP_INT[i]
+    except Exception:
+        pass
     s = str(x).strip().lower()
     if "malig" in s:
         return "malignant"
     if "benig" in s:
         return "benign"
-    if ("no" in s and "lesion" in s) or s in {"none","nolession","no_lesion"}:
+    if ("no" in s and "lesion" in s) or s == "nolesion":
         return "no lesion"
-    return s  # 保留原值，万一有其他写法
+    if s in {"0", "1", "2"}:
+        return _LABEL_MAP_INT[int(s)]
+    return s
 
-def bool_mask(df, cols):
-    m = np.ones(len(df), dtype=bool)
-    for c in cols:
-        # 将 '0/1', 'True/False', 0/1 统一成布尔
-        v = df[c]
-        if v.dtype == bool:
-            b = v
-        else:
-            b = v.astype(str).str.lower().isin(["1","true","t","yes"])
-        m &= b.values
-    return m
+REQUIRED_GROUPS: Dict[str, List[str]] = {
+    "Pre–Post2": ["has_Pre", "has_Post_1", "has_T2"],
+    "Pre–Post4": ["has_Pre", "has_Post_1", "has_Post_2", "has_Post_3", "has_Post_4"],
+}
 
-def main(meta_csv: Path, out_dir: Path):
+def row_has_all_modalities(row: pd.Series, modalities: List[str]) -> bool:
+    return all(bool(row.get(m, False)) for m in modalities)
+
+def autodetect_label_col(df: pd.DataFrame) -> str:
+    lowered = {c: c.lower().strip().replace(" ", "").replace("\u00a0","") for c in df.columns}
+    priority_exact = [
+        "lesion","lesion_class","lesionclass","label","class","target",
+        "gt","groundtruth","y","category"
+    ]
+    for k in priority_exact:
+        for orig, low in lowered.items():
+            if low == k:
+                return orig
+    keywords = ["lesion","label","class","target","gt","truth","category"]
+    for kw in keywords:
+        for orig, low in lowered.items():
+            if kw in low:
+                return orig
+    return ""
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--meta", required=True)
+    ap.add_argument("--out", required=True)
+    ap.add_argument("--label-col", default="")
+    args = ap.parse_args()
+
+    meta_path = Path(args.meta)
+    out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # 1) 读 metadata.csv
-    df = pd.read_csv(meta_csv)
+    df = pd.read_csv(meta_path, encoding="utf-8-sig")
 
-    # 2) 从 HF 取 UID+Lesion 并合并
-    hf_labels = load_hf_labels()
-    merged = df.merge(hf_labels, on="UID", how="left")
+    label_col = args.label_col.strip()
+    if label_col == "":
+        label_col = autodetect_label_col(df)
+    if label_col == "" or label_col not in df.columns:
+        raise ValueError(f"Label column not found. Available columns: {list(df.columns)}")
 
-    # 保存一份带标签的 metadata，方便留档与复现
-    merged_csv = out_dir.parent / "metadata_with_labels.csv"
-    merged.to_csv(merged_csv, index=False)
-    print("[INFO] Saved merged metadata:", merged_csv)
+    df["Lesion_Normalized"] = df[label_col].map(normalize_label)
 
-    # 3) 取两组模态组合
-    group_pre_post2 = ["has_Pre","has_Sub_1","has_T2","has_Post_1","has_Post_2"]
-    group_pre_post4 = group_pre_post2 + ["has_Post_3","has_Post_4"]
+    group_masks: Dict[str, pd.Series] = {}
+    for gname, mods in REQUIRED_GROUPS.items():
+        mask = df.apply(lambda r: row_has_all_modalities(r, mods), axis=1)
+        group_masks[gname] = mask
 
-    m2 = bool_mask(merged, group_pre_post2)
-    m4 = bool_mask(merged, group_pre_post4)
+    group_counts = {g: int(mask.sum()) for g, mask in group_masks.items()}
 
-    g2 = merged[m2].copy()
-    g4 = merged[m4].copy()
+    fig1 = plt.figure(figsize=(10, 6), dpi=150)
+    ax1 = fig1.add_subplot(111)
+    xnames = list(REQUIRED_GROUPS.keys())
+    xvals = [group_counts[g] for g in xnames]
+    ax1.bar(xnames, xvals, color=["#1f77b4", "#ff7f0e"])
+    ax1.set_title("Modality Coverage\n(Count of cases meeting the required combination)", fontsize=16)
+    ax1.set_ylabel("Cases")
+    for i, v in enumerate(xvals):
+        ax1.text(i, v + max(1, v * 0.01), str(v), ha="center", va="bottom", fontsize=10)
+    fig1.tight_layout()
+    fig1.savefig(out_dir / "modality_distribution.png")
+    plt.close(fig1)
 
-    # 4) 图1：Modality Coverage（满足组合的病例数）
-    plt.figure(figsize=(9,5))
-    plt.bar(["Pre–Post2","Pre–Post4"], [len(g2), len(g4)])
-    plt.ylabel("Cases")
-    plt.title("Modality Coverage\n(Count of cases meeting the required combination)")
-    plt.tight_layout()
-    mod_png = out_dir / "modality_distribution.png"
-    plt.savefig(mod_png, dpi=160)
-    plt.close()
-    print("[INFO] Saved:", mod_png)
+    classes = ["malignant","benign","no lesion"]
+    class_counts = {g: {c: 0 for c in classes} for g in REQUIRED_GROUPS.keys()}
+    for gname, mask in group_masks.items():
+        sub = df[mask]
+        vc = sub["Lesion_Normalized"].value_counts()
+        for c in classes:
+            class_counts[gname][c] = int(vc.get(c, 0))
 
-    # 5) 图2：Class Distribution（有真实标签）
-    # 统一标签写法
-    g2["Lesion_norm"] = g2["Lesion"].map(normalize_label)
-    g4["Lesion_norm"] = g4["Lesion"].map(normalize_label)
+    fig2 = plt.figure(figsize=(10, 6), dpi=150)
+    ax2 = fig2.add_subplot(111)
+    idx = np.arange(len(classes))
+    width = 0.36
+    g1, g2 = xnames
+    vals_g1 = [class_counts[g1][c] for c in classes]
+    vals_g2 = [class_counts[g2][c] for c in classes]
+    ax2.bar(idx - width/2, vals_g1, width=width, label=g1)
+    ax2.bar(idx + width/2, vals_g2, width=width, label=g2)
+    ax2.set_xticks(idx)
+    ax2.set_xticklabels(classes)
+    ax2.set_ylabel("Cases")
+    ax2.set_title("Class Distribution", fontsize=16)
+    ax2.legend(loc="upper right")
+    for i, v in enumerate(vals_g1):
+        ax2.text(i - width/2, v + max(1, v * 0.01), str(v), ha="center", va="bottom", fontsize=9)
+    for i, v in enumerate(vals_g2):
+        ax2.text(i + width/2, v + max(1, v * 0.01), str(v), ha="center", va="bottom", fontsize=9)
+    fig2.tight_layout()
+    fig2.savefig(out_dir / "class_distribution.png")
+    plt.close(fig2)
 
-    # 按指定顺序显示（其余类别也会显示，防止漏）
-    order = ["malignant","benign","no lesion"]
-    cats = list(dict.fromkeys(order + sorted(set(g2["Lesion_norm"].dropna().unique()) |
-                                            set(g4["Lesion_norm"].dropna().unique()))))
+    export_cols = [c for c in df.columns if c.startswith("has_") or c in ["UID","Institution","Split","Fold","Path"]]
+    export_cols.append("Lesion_Normalized")
+    for gname, mask in group_masks.items():
+        sub = df.loc[mask, export_cols]
+        out_csv = out_dir / f"task1_index_{gname.replace('–','-').replace('—','-').replace(' ', '_')}.csv"
+        sub.to_csv(out_csv, index=False, encoding="utf-8-sig")
 
-    g2_counts = g2["Lesion_norm"].value_counts()
-    g4_counts = g4["Lesion_norm"].value_counts()
-
-    x = np.arange(len(cats))
-    w = 0.35
-    plt.figure(figsize=(10,6))
-    plt.bar(x - w/2, [g2_counts.get(k,0) for k in cats], w, label="Pre–Post2")
-    plt.bar(x + w/2, [g4_counts.get(k,0) for k in cats], w, label="Pre–Post4")
-    plt.xticks(x, cats)
-    plt.ylabel("Cases")
-    plt.title("Class Distribution")
-    plt.legend()
-    plt.tight_layout()
-    cls_png = out_dir / "class_distribution.png"
-    plt.savefig(cls_png, dpi=160)
-    plt.close()
-    print("[INFO] Saved:", cls_png)
-
-    # 6) 终端摘要
-    print("\n=== SUMMARY ===")
-    print(f"Pre–Post2: {len(g2)} cases")
-    print(f"Pre–Post4: {len(g4)} cases")
-    print("Class counts (Pre–Post2):", dict(g2_counts))
-    print("Class counts (Pre–Post4):", dict(g4_counts))
+    print("[OK] Saved:", out_dir / "modality_distribution.png")
+    print("[OK] Saved:", out_dir / "class_distribution.png")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--meta", type=str, required=True,
-                        help="Path to metadata.csv")
-    parser.add_argument("--out", type=str, required=True,
-                        help="Output figures dir")
-    args = parser.parse_args()
-    main(Path(args.meta), Path(args.out))
+    main()

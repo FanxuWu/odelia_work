@@ -1,0 +1,239 @@
+﻿UID,Institution,Split,Fold,Path,has_Pre,has_Post_1,has_Post_2,has_Post_3,has_Post_4,has_Post_5,has_Post_6,has_Post_7,has_Sub_1,has_T2,Lesion_Normalized
+ODELIA_BRAID1_0158_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0158_1_left,True,True,True,False,False,False,False,False,True,True,no lesion
+ODELIA_BRAID1_0177_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0177_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0188_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0188_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0189_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0189_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0202_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0202_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0204_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0204_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0212_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0212_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0220_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0220_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0225_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0225_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0230_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0230_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0238_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0238_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0246_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0246_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0249_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0249_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0254_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0254_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0261_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0261_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0264_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0264_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0269_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0269_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0280_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0280_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0284_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0284_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0290_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0290_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0298_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0298_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0304_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0304_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0312_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0312_1_left,True,True,True,False,False,False,False,False,True,True,benign
+ODELIA_BRAID1_0314_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0314_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0325_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0325_1_left,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0779_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0779_1_left,True,True,True,False,False,False,False,False,True,True,no lesion
+ODELIA_TRICKS_0064_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0064_1_left,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0067_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0067_1_left,True,True,True,True,True,False,False,False,True,True,no lesion
+ODELIA_TRICKS_0077_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0077_1_left,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0079_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0079_1_left,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0089_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0089_1_left,True,True,True,True,True,True,False,False,True,True,benign
+ODELIA_TRICKS_0095_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0095_1_left,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0099_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0099_1_left,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0109_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0109_1_left,True,True,True,True,True,True,False,False,True,True,malignant
+ODELIA_TRICKS_0115_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0115_1_left,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0121_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0121_1_left,True,True,True,True,True,True,False,False,True,True,malignant
+ODELIA_TRICKS_0123_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0123_1_left,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0136_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0136_1_left,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0138_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0138_1_left,True,True,True,True,True,True,False,False,True,True,malignant
+ODELIA_TRICKS_0146_1_left,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0146_1_left,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_BRAID1_0158_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0158_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0177_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0177_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0188_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0188_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0189_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0189_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0202_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0202_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0204_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0204_1_right,True,True,True,False,False,False,False,False,True,True,benign
+ODELIA_BRAID1_0212_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0212_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0220_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0220_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0225_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0225_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0230_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0230_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0238_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0238_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0246_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0246_1_right,True,True,True,False,False,False,False,False,True,True,benign
+ODELIA_BRAID1_0249_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0249_1_right,True,True,True,False,False,False,False,False,True,True,benign
+ODELIA_BRAID1_0254_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0254_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0261_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0261_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0264_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0264_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0269_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0269_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0280_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0280_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0284_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0284_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0290_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0290_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0298_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0298_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0304_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0304_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0312_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0312_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_BRAID1_0314_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0314_1_right,True,True,True,False,False,False,False,False,True,True,no lesion
+ODELIA_BRAID1_0325_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0325_1_right,True,True,True,False,False,False,False,False,True,True,no lesion
+ODELIA_BRAID1_0779_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_BRAID1_0779_1_right,True,True,True,False,False,False,False,False,True,True,malignant
+ODELIA_TRICKS_0064_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0064_1_right,True,True,True,True,True,True,False,False,True,True,malignant
+ODELIA_TRICKS_0067_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0067_1_right,True,True,True,True,True,False,False,False,True,True,malignant
+ODELIA_TRICKS_0077_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0077_1_right,True,True,True,True,True,True,False,False,True,True,malignant
+ODELIA_TRICKS_0079_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0079_1_right,True,True,True,True,True,True,False,False,True,True,malignant
+ODELIA_TRICKS_0089_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0089_1_right,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0095_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0095_1_right,True,True,True,True,True,True,False,False,True,True,malignant
+ODELIA_TRICKS_0099_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0099_1_right,True,True,True,True,True,True,False,False,True,True,malignant
+ODELIA_TRICKS_0109_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0109_1_right,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0115_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0115_1_right,True,True,True,True,True,True,False,False,True,True,malignant
+ODELIA_TRICKS_0121_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0121_1_right,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0123_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0123_1_right,True,True,True,True,True,True,False,False,True,True,malignant
+ODELIA_TRICKS_0136_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0136_1_right,True,True,True,True,True,True,False,False,True,True,malignant
+ODELIA_TRICKS_0138_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0138_1_right,True,True,True,True,True,True,False,False,True,True,no lesion
+ODELIA_TRICKS_0146_1_right,CAM,val,0,F:\odelia_data\unilateral\val\CAM\ODELIA_TRICKS_0146_1_right,True,True,True,True,True,True,False,False,True,True,malignant
+02014C03_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\02014C03_left,True,True,True,True,True,False,False,False,True,True,malignant
+0D93EF1E_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\0D93EF1E_left,True,True,True,True,True,False,False,False,True,True,benign
+204EB5F4_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\204EB5F4_left,True,True,True,True,True,False,False,False,True,True,malignant
+4BC86F05_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\4BC86F05_left,True,True,True,True,True,False,False,False,True,True,malignant
+51B50053_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\51B50053_left,True,True,True,True,True,False,False,False,True,True,malignant
+5CA3B666_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\5CA3B666_left,True,True,True,True,True,False,False,False,True,True,malignant
+65639183_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\65639183_left,True,True,True,True,True,False,False,False,True,True,malignant
+6F98B83E_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\6F98B83E_left,True,True,True,True,True,False,False,False,True,True,no lesion
+79FAE873_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\79FAE873_left,True,True,True,True,True,False,False,False,True,True,no lesion
+8FB70449_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\8FB70449_left,True,True,True,True,True,False,False,False,True,True,malignant
+9C5093A5_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\9C5093A5_left,True,True,True,True,True,False,False,False,True,True,benign
+A93A03CD_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\A93A03CD_left,True,True,True,True,True,False,False,False,True,True,malignant
+BD4C406B_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\BD4C406B_left,True,True,True,True,True,False,False,False,True,True,no lesion
+E59C62A7_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\E59C62A7_left,True,True,True,True,True,False,False,False,True,True,malignant
+EF11BBDA_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\EF11BBDA_left,True,True,True,True,True,False,False,False,True,True,malignant
+F4F2A8A8_left,MHA,val,0,F:\odelia_data\unilateral\val\MHA\F4F2A8A8_left,True,True,True,True,True,False,False,False,True,True,malignant
+02014C03_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\02014C03_right,True,True,True,True,True,False,False,False,True,True,no lesion
+0D93EF1E_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\0D93EF1E_right,True,True,True,True,True,False,False,False,True,True,malignant
+204EB5F4_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\204EB5F4_right,True,True,True,True,True,False,False,False,True,True,no lesion
+4BC86F05_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\4BC86F05_right,True,True,True,True,True,False,False,False,True,True,no lesion
+51B50053_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\51B50053_right,True,True,True,True,True,False,False,False,True,True,malignant
+5CA3B666_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\5CA3B666_right,True,True,True,True,True,False,False,False,True,True,malignant
+65639183_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\65639183_right,True,True,True,True,True,False,False,False,True,True,no lesion
+6F98B83E_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\6F98B83E_right,True,True,True,True,True,False,False,False,True,True,malignant
+79FAE873_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\79FAE873_right,True,True,True,True,True,False,False,False,True,True,malignant
+8FB70449_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\8FB70449_right,True,True,True,True,True,False,False,False,True,True,malignant
+9C5093A5_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\9C5093A5_right,True,True,True,True,True,False,False,False,True,True,malignant
+A93A03CD_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\A93A03CD_right,True,True,True,True,True,False,False,False,True,True,no lesion
+BD4C406B_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\BD4C406B_right,True,True,True,True,True,False,False,False,True,True,malignant
+E59C62A7_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\E59C62A7_right,True,True,True,True,True,False,False,False,True,True,no lesion
+EF11BBDA_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\EF11BBDA_right,True,True,True,True,True,False,False,False,True,True,benign
+F4F2A8A8_right,MHA,val,0,F:\odelia_data\unilateral\val\MHA\F4F2A8A8_right,True,True,True,True,True,False,False,False,True,True,malignant
+Anonymized100_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized100_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized11_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized11_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized114_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized114_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized119_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized119_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized123_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized123_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized13_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized13_left,True,True,True,True,True,True,False,False,True,True,no lesion
+Anonymized17_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized17_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized26_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized26_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized31_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized31_left,True,True,True,True,True,True,False,False,True,True,no lesion
+Anonymized32_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized32_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized41_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized41_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized47_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized47_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized53_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized53_left,True,True,True,True,True,True,False,False,True,True,no lesion
+Anonymized6_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized6_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized67_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized67_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized73_left,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized73_left,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized100_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized100_right,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized11_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized11_right,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized114_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized114_right,True,True,True,True,True,True,False,False,True,True,no lesion
+Anonymized119_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized119_right,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized123_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized123_right,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized13_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized13_right,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized17_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized17_right,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized26_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized26_right,True,True,True,True,True,True,False,False,True,True,no lesion
+Anonymized31_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized31_right,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized32_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized32_right,True,True,True,True,True,True,False,False,True,True,benign
+Anonymized41_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized41_right,True,True,True,True,True,True,False,False,True,True,no lesion
+Anonymized47_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized47_right,True,True,True,True,True,True,False,False,True,True,no lesion
+Anonymized53_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized53_right,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized6_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized6_right,True,True,True,True,True,True,False,False,True,True,malignant
+Anonymized67_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized67_right,True,True,True,True,True,True,False,False,True,True,no lesion
+Anonymized73_right,RSH,val,0,F:\odelia_data\unilateral\val\RSH\Anonymized73_right,True,True,True,True,True,True,False,False,True,True,benign
+RUMC_010_left,RUMC,val,0,F:\odelia_data\unilateral\val\RUMC\RUMC_010_left,True,True,True,True,True,False,False,False,True,True,malignant
+RUMC_034_left,RUMC,val,0,F:\odelia_data\unilateral\val\RUMC\RUMC_034_left,True,True,True,True,True,False,False,False,True,True,no lesion
+RUMC_050_left,RUMC,val,0,F:\odelia_data\unilateral\val\RUMC\RUMC_050_left,True,True,True,True,True,False,False,False,True,True,malignant
+RUMC_067_left,RUMC,val,0,F:\odelia_data\unilateral\val\RUMC\RUMC_067_left,True,True,True,True,True,False,False,False,True,True,no lesion
+RUMC_087_left,RUMC,val,0,F:\odelia_data\unilateral\val\RUMC\RUMC_087_left,True,True,True,True,True,False,False,False,True,True,no lesion
+RUMC_010_right,RUMC,val,0,F:\odelia_data\unilateral\val\RUMC\RUMC_010_right,True,True,True,True,True,False,False,False,True,True,no lesion
+RUMC_034_right,RUMC,val,0,F:\odelia_data\unilateral\val\RUMC\RUMC_034_right,True,True,True,True,True,False,False,False,True,True,malignant
+RUMC_050_right,RUMC,val,0,F:\odelia_data\unilateral\val\RUMC\RUMC_050_right,True,True,True,True,True,False,False,False,True,True,benign
+RUMC_067_right,RUMC,val,0,F:\odelia_data\unilateral\val\RUMC\RUMC_067_right,True,True,True,True,True,False,False,False,True,True,benign
+RUMC_087_right,RUMC,val,0,F:\odelia_data\unilateral\val\RUMC\RUMC_087_right,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_10_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_10_left,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_17_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_17_left,True,True,True,True,True,False,False,False,True,True,no lesion
+UKA_25_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_25_left,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_26_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_26_left,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_31_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_31_left,True,True,True,True,True,False,False,False,True,True,benign
+UKA_42_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_42_left,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_45_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_45_left,True,True,True,True,True,False,False,False,True,True,no lesion
+UKA_49_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_49_left,True,True,True,True,True,False,False,False,True,True,benign
+UKA_57_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_57_left,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_60_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_60_left,True,True,True,True,True,False,False,False,True,True,benign
+UKA_69_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_69_left,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_7_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_7_left,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_79_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_79_left,True,True,True,True,True,False,False,False,True,True,benign
+UKA_82_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_82_left,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_9_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_9_left,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_98_left,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_98_left,True,True,True,True,True,False,False,False,True,True,no lesion
+UKA_10_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_10_right,True,True,True,True,True,False,False,False,True,True,benign
+UKA_17_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_17_right,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_25_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_25_right,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_26_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_26_right,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_31_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_31_right,True,True,True,True,True,False,False,False,True,True,benign
+UKA_42_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_42_right,True,True,True,True,True,False,False,False,True,True,no lesion
+UKA_45_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_45_right,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_49_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_49_right,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_57_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_57_right,True,True,True,True,True,False,False,False,True,True,benign
+UKA_60_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_60_right,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_69_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_69_right,True,True,True,True,True,False,False,False,True,True,no lesion
+UKA_7_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_7_right,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_79_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_79_right,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_82_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_82_right,True,True,True,True,True,False,False,False,True,True,malignant
+UKA_9_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_9_right,True,True,True,True,True,False,False,False,True,True,no lesion
+UKA_98_right,UKA,val,0,F:\odelia_data\unilateral\val\UKA\UKA_98_right,True,True,True,True,True,False,False,False,True,True,malignant
+0059120514_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\0059120514_left,True,True,True,True,True,True,False,False,True,True,malignant
+0236787338_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\0236787338_left,True,True,True,True,True,True,False,False,True,True,benign
+0727331841_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\0727331841_left,True,True,True,True,True,True,False,False,True,True,malignant
+0740618466_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\0740618466_left,True,True,True,True,True,True,False,False,True,True,malignant
+1530172920_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\1530172920_left,True,True,True,True,True,True,False,False,True,True,benign
+1753823366_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\1753823366_left,True,True,True,True,True,True,False,False,True,True,benign
+2012076436_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\2012076436_left,True,True,True,True,True,True,False,False,True,True,no lesion
+2701030139_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\2701030139_left,True,True,True,True,True,True,False,False,True,True,malignant
+2849194792_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\2849194792_left,True,True,True,True,True,True,False,False,True,True,malignant
+3214736656_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\3214736656_left,True,True,True,True,True,True,True,False,True,True,malignant
+3239451384_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\3239451384_left,True,True,True,True,True,True,False,False,True,True,no lesion
+3491190663_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\3491190663_left,True,True,True,True,True,True,False,False,True,True,malignant
+4364410044_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\4364410044_left,True,True,True,True,True,True,False,False,True,True,malignant
+4534216235_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\4534216235_left,True,True,True,True,True,True,False,False,True,True,no lesion
+5190035234_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\5190035234_left,True,True,True,True,True,True,False,False,True,True,malignant
+5846905000_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\5846905000_left,True,True,True,True,True,True,True,True,True,True,malignant
+5946382297_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\5946382297_left,True,True,True,True,True,True,False,False,True,True,benign
+6266320165_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\6266320165_left,True,True,True,True,True,True,False,False,True,True,benign
+6479274844_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\6479274844_left,True,True,True,True,True,True,True,False,True,True,malignant
+6767875838_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\6767875838_left,True,True,True,True,True,True,False,False,True,True,malignant
+7348118531_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\7348118531_left,True,True,True,True,True,True,False,False,True,True,benign
+7889522450_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\7889522450_left,True,True,True,True,True,True,False,False,True,True,malignant
+8352399231_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\8352399231_left,True,True,True,True,True,True,False,False,True,True,no lesion
+8919808881_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\8919808881_left,True,True,True,True,True,True,False,False,True,True,benign
+9215908695_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\9215908695_left,True,True,True,True,True,True,False,False,True,True,malignant
+9875173730_left,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\9875173730_left,True,True,True,True,True,True,True,False,True,True,no lesion
+0059120514_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\0059120514_right,True,True,True,True,True,True,False,False,True,True,malignant
+0236787338_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\0236787338_right,True,True,True,True,True,True,False,False,True,True,malignant
+0727331841_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\0727331841_right,True,True,True,True,True,True,False,False,True,True,benign
+0740618466_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\0740618466_right,True,True,True,True,True,True,False,False,True,True,malignant
+1530172920_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\1530172920_right,True,True,True,True,True,True,False,False,True,True,no lesion
+1753823366_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\1753823366_right,True,True,True,True,True,True,False,False,True,True,malignant
+2012076436_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\2012076436_right,True,True,True,True,True,True,False,False,True,True,benign
+2701030139_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\2701030139_right,True,True,True,True,True,True,False,False,True,True,malignant
+2849194792_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\2849194792_right,True,True,True,True,True,True,False,False,True,True,malignant
+3214736656_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\3214736656_right,True,True,True,True,True,True,True,False,True,True,no lesion
+3239451384_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\3239451384_right,True,True,True,True,True,True,False,False,True,True,malignant
+3491190663_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\3491190663_right,True,True,True,True,True,True,False,False,True,True,malignant
+4364410044_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\4364410044_right,True,True,True,True,True,True,False,False,True,True,malignant
+4534216235_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\4534216235_right,True,True,True,True,True,True,False,False,True,True,benign
+5190035234_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\5190035234_right,True,True,True,True,True,True,False,False,True,True,malignant
+5846905000_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\5846905000_right,True,True,True,True,True,True,True,True,True,True,no lesion
+5946382297_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\5946382297_right,True,True,True,True,True,True,False,False,True,True,malignant
+6266320165_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\6266320165_right,True,True,True,True,True,True,False,False,True,True,malignant
+6479274844_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\6479274844_right,True,True,True,True,True,True,True,False,True,True,malignant
+6767875838_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\6767875838_right,True,True,True,True,True,True,False,False,True,True,benign
+7348118531_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\7348118531_right,True,True,True,True,True,True,False,False,True,True,no lesion
+7889522450_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\7889522450_right,True,True,True,True,True,True,False,False,True,True,no lesion
+8352399231_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\8352399231_right,True,True,True,True,True,True,False,False,True,True,malignant
+8919808881_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\8919808881_right,True,True,True,True,True,True,False,False,True,True,malignant
+9215908695_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\9215908695_right,True,True,True,True,True,True,False,False,True,True,no lesion
+9875173730_right,UMCU,val,0,F:\odelia_data\unilateral\val\UMCU\9875173730_right,True,True,True,True,True,True,True,False,True,True,malignant
